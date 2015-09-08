@@ -1,0 +1,77 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;method&gt;">
+    <CLASSES>
+      <root url="file://C:/gopath/src/github.com" />
+      <root url="file://C:/gopath/src/gopkg.in" />
+      <root url="file://C:/gopath/src/golang.org" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <excluded>
+      <root url="file://C:/gopath/src/github.com/docker/notary/.git" />
+      <root url="file://C:/gopath/src/github.com/vbatts/tar-split/.git" />
+      <root url="file://C:/gopath/src/github.com/docker/libtrust/.git" />
+      <root url="file://C:/gopath/src/github.com/golang/protobuf/proto/testdata" />
+      <root url="file://C:/gopath/src/github.com/hashicorp/consul/website/source/assets/javascripts/_app" />
+      <root url="file://C:/gopath/src/github.com/mattn/go-sqlite3/.git" />
+      <root url="file://C:/gopath/src/github.com/docker/libnetwork/.git" />
+      <root url="file://C:/gopath/src/github.com/docker/libkv/.git" />
+      <root url="file://C:/gopath/src/github.com/microsoft/hcsshim/.git" />
+      <root url="file://C:/gopath/src/github.com/mattn/go-sqlite3/_example" />
+      <root url="file://C:/gopath/src/github.com/tchap/go-patricia/.git" />
+      <root url="file://C:/gopath/src/github.com/microsoft/hcsshim/Godeps/_workspace" />
+      <root url="file://C:/gopath/src/github.com/vbatts/tar-split/tar/asm/testdata" />
+      <root url="file://C:/gopath/src/github.com/endophage/gotuf/.git" />
+      <root url="file://C:/gopath/src/gopkg.in/fsnotify.v1/.git" />
+      <root url="file://C:/gopath/src/github.com/philhofer/fwd/.git" />
+      <root url="file://C:/gopath/src/github.com/gorilla/mux/.git" />
+      <root url="file://C:/gopath/src/github.com/golang/protobuf/protoc-gen-go/testdata" />
+      <root url="file://C:/gopath/src/github.com/vbatts/tar-split/archive/tar/testdata" />
+      <root url="file://C:/gopath/src/github.com/BurntSushi/toml/_examples" />
+      <root url="file://$PROJECT_DIR$" />
+      <root url="file://C:/gopath/src/github.com/docker/notary/Godeps/_workspace" />
+      <root url="file://C:/gopath/src/github.com/docker/distribution/Godeps/_workspace" />
+      <root url="file://C:/gopath/src/github.com/opencontainers/runc/Godeps/_workspace" />
+      <root url="file://C:/gopath/src/github.com/BurntSushi/toml/.git" />
+      <root url="file://C:/gopath/src/github.com/agl/ed25519/.git" />
+      <root url="file://C:/gopath/src/github.com/docker/docker/pkg/tarsum/testdata" />
+      <root url="file://C:/gopath/src/github.com/agl/ed25519/testdata" />
+      <root url="file://C:/gopath/src/github.com/gorilla/context/.git" />
+      <root url="file://C:/gopath/src/github.com/vishvananda/netlink/.git" />
+      <root url="file://C:/gopath/src/github.com/fluent/fluent-logger-golang/.git" />
+      <root url="file://C:/gopath/src/golang.org/x/net/.git" />
+      <root url="file://C:/gopath/src/github.com/docker/docker/.git" />
+      <root url="file://C:/gopath/src/github.com/samuel/go-zookeeper/.git" />
+      <root url="file://C:/gopath/src/github.com/fluent/fluent-logger-golang/_examples" />
+      <root url="file://C:/gopath/src/github.com/tinylib/msgp/.git" />
+      <root url="file://C:/gopath/src/github.com/tinylib/msgp/_generated" />
+      <root url="file://C:/gopath/src/github.com/tent/canonical-json-go/.git" />
+      <root url="file://C:/gopath/src/github.com/opencontainers/runc/.git" />
+      <root url="file://C:/gopath/src/github.com/endophage/gotuf/Godeps/_workspace" />
+      <root url="file://C:/gopath/src/github.com/docker/docker/docs/reference/api/_static" />
+      <root url="file://C:/gopath/src/github.com/docker/libnetwork/Godeps/_workspace" />
+      <root url="file://C:/gopath/src/github.com/hashicorp/go-msgpack/.git" />
+      <root url="file://C:/gopath/src/golang.org/x/net/html/testdata" />
+      <root url="file://C:/gopath/src/github.com/godbus/dbus/_examples" />
+      <root url="file://C:/gopath/src/github.com/syndtr/gocapability/.git" />
+      <root url="file://C:/gopath/src/github.com/armon/go-metrics/.git" />
+      <root url="file://C:/gopath/src/github.com/hashicorp/consul/.git" />
+      <root url="file://C:/gopath/src/github.com/ugorji/go/.git" />
+      <root url="file://C:/gopath/src/golang.org/x/net/html/charset/testdata" />
+      <root url="file://C:/gopath/src/github.com/docker/docker/hack/make/.resources-windows" />
+      <root url="file://C:/gopath/src/github.com/docker/distribution/.git" />
+      <root url="file://C:/gopath/src/github.com/hashicorp/serf/.git" />
+      <root url="file://C:/gopath/src/github.com/godbus/dbus/.git" />
+      <root url="file://C:/gopath/src/github.com/docker/docker/hack/make/.build-deb" />
+      <root url="file://C:/gopath/src/github.com/Azure/go-ansiterm/.git" />
+      <root url="file://C:/gopath/src/github.com/coreos/etcdctl/.git" />
+      <root url="file://C:/gopath/src/github.com/Sirupsen/logrus/.git" />
+      <root url="file://C:/gopath/src/github.com/docker/docker/hack/make/.build-rpm" />
+      <root url="file://C:/gopath/src/github.com/coreos/go-etcd/.git" />
+      <root url="file://C:/gopath/src/github.com/go-check/check/.git" />
+      <root url="file://C:/gopath/src/github.com/docker/docker/pkg/archive/testdata" />
+      <root url="file://C:/gopath/src/github.com/hashicorp/memberlist/.git" />
+      <root url="file://C:/gopath/src/github.com/golang/protobuf/.git" />
+    </excluded>
+  </library>
+</component>
