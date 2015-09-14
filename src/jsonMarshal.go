@@ -3,6 +3,7 @@ package main
 import(
 	"encoding/json"
 	"fmt"
+	"github.com/bitly/go-simplejson"
 )
 
 type PortMapping struct {
@@ -17,13 +18,13 @@ type Docker struct {
 	Network string
 	Privileged bool
 	ForcePullImage bool
-	PortMappings []*PortMapping `json:"portMappings,omitempty"`
+	PortMappings []PortMapping
 }
 
 //这一块无法解析
 type Container struct  {
 	Type string `json:"type,omitempty"`
-	Docker *Docker `json:"docker,omitempty"`
+	Docker `docker:"type:json",json:"-"`
 }
 
 type HealthCheck struct  {
@@ -41,7 +42,7 @@ type Application struct {
 	Instances int
 	Mem int
 	Ports []int
-	Container
+	Container map[string]interface{}
 	HealthChecks []HealthCheck
 }
 
@@ -55,8 +56,7 @@ func main() {
 "ports": [
         5432
     ],
-"container":
- {
+"container":{
     "type": "DOCKER",
     "docker":{
         "image": "frodenas/postgresql:latest",
@@ -84,6 +84,14 @@ func main() {
         }
   ]
 }`
+
+	jsh , err := simplejson.NewJson([]byte(js))
+
+	if err != nil {
+		fmt.Println("err")
+	}
+
+	fmt.Println(jsh.Get("container").Get("type"))
 
 	json.Unmarshal([]byte(js), &app)
 	fmt.Println(app)
