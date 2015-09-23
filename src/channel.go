@@ -33,8 +33,27 @@ func Customer(c chan int) {
 
 }
 
+func readChannel(c chan int) {
+//	time.Sleep(time.Second)
+	for v := range c {
+		fmt.Println("ReadChannel: ", v)
+	}
+}
+
+func writeChannel(i int,c chan int){
+
+	fmt.Println("write:",i)
+	c <- i
+}
+
 func main() {
-	p := make(chan int)
-	go Producer(p)
-	Customer(p)
+//	p := make(chan int)
+//	go Producer(p)
+//	Customer(p)
+	c := make(chan int)
+	go readChannel(c)
+	for i:=0;i<15;i++ {
+		writeChannel(i,c)
+//		time.Sleep(time.Second)
+	}
 }
